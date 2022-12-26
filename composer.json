@@ -1,0 +1,15 @@
+{
+    "name": "edjs/edjshtml",
+    "autoload": {
+        "psr-4": {
+            "Edjs\\Edjshtml\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "makcim512",
+            "email": "54147715+makcim512@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
