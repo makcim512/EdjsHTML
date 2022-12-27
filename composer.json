@@ -2,7 +2,7 @@
     "name": "edjs/edjshtml",
     "type": "library",
     "license": "apache-2.0",
-    "version": "v1.1.4",
+    "version": "v1.1.5",
     "autoload": {
         "files": ["src/Editor.php", "src/Template.php"],
         "classmap": ["src"],
