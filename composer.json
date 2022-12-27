@@ -1,9 +1,11 @@
 {
-    "name": "edjs/edjshtml",
+    "name": "Edjs/Edjshtml",
     "type": "library",
     "license": "apache-2.0",
     "version": "1.0.0",
     "autoload": {
+        "files": ["src/Editor.php", "src/Template.php"],
+        "classmap": ["src"],
         "psr-4": {
             "Edjs\\Edjshtml\\": "src/"
         }

@@ -1,5 +1,5 @@
 <?php
-    namespace EdjsHTML;
+    namespace Edjs\Edjshtml;
 
     class Template {
         /**
