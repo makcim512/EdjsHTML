@@ -21,7 +21,7 @@
          */
         public function blocks(array $params) 
         {
-            $this->templates = array_merge($this->$templates, $params);
+            $this->templates = array_merge($this->templates, $params);
         }
 
         /**
