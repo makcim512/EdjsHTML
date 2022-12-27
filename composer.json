@@ -2,6 +2,7 @@
     "name": "edjs/edjshtml",
     "type": "library",
     "license": "apache-2.0",
+    "version": "1.0",
     "autoload": {
         "psr-4": {
             "Edjs\\Edjshtml\\": "src/"
