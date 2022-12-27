@@ -8,7 +8,7 @@
         function __construct(array $template = null) 
         { 
             if ( $template ) 
-                $this->$templates = $template;
+                $this->templates = $template;
         }
 
         /**
@@ -21,7 +21,7 @@
          */
         public function blocks(array $params) 
         {
-            $this->$templates = array_merge($this->$templates, $params);
+            $this->templates = array_merge($this->$templates, $params);
         }
 
         /**
@@ -36,8 +36,8 @@
             $result = [];
 
             foreach ($blocks as $block) {
-                if (array_key_exists($block['type'], $this->$templates)) {
-                    $template = $this->$templates[$block['type']];
+                if (array_key_exists($block['type'], $this->templates)) {
+                    $template = $this->templates[$block['type']];
                     $result[] = call_user_func_array($template, $block['data']);
                 }
             }
